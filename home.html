@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>GOD'S OWN COUNTRY</title>
+</head>
+<body>
+  <section class ="showcase">
+    <header>
+      <h2 class="logo">KERALA</h2>
+      <div class="toggle"></div>
+    </header>
+    
+    <video src="video.mp4" muted loop autoplay></video>
+    <div class="overlay"></div>
+    <div class="text"><BR>
+      <h2>God's Own Country</h2>
+      <h3>Each moment of year has its own Beauty</h3>
+      <p>If happiness is the goal – and it should be, then adventures should be a priority</p>
+      <a href="https://en.wikipedia.org/wiki/Kerala">Explore</a>
+    </div>
+    <ul class="social">
+      <li><a href="https://www.facebook.com"><img src="facebook.png"></li>
+      <li><a href="https://www.instagram.com"><img src="instagram.png"></li>
+      <li><a href="https://www.whatsapp.com"><img src="whatsapp.png" ></li>
+    </ul>
+    </section>
+    <div class="menu">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="https://timesofindia.indiatimes.com/india/kerala">News</a></li>
+      <li><a href="https://www.holidify.com/collections/festivals-of-kerala">Festivals</a></li>
+      <li><a href="https://www.whereig.com/india/states/kerala.html">Districts</a></li>
+    </ul>
+    </div>
+    <script>
+      const menuToggle=document.querySelector('.toggle');
+      const showcase=document.querySelector('.showcase');
+      menuToggle.addEventListener('click',()=> {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+    </script>
+</body>
+</html>
